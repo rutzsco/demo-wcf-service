@@ -6,8 +6,8 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '7f75068b-c613-4922-8461-594336768183'
-  imageRepository: 'rutzscodemowcfservice'
+  dockerRegistryServiceConnection: '3541a012-f653-43c8-afa5-e2e6dc225464'
+  imageRepository: 'demo/wcfservice'
   containerRegistry: 'rutzscodev.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/wcfapp/Dockerfile'
   tag: '$(Build.BuildId)'
